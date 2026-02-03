@@ -1,0 +1,42 @@
+site_name: Medi-Lens Docs
+site_description: AI-powered medical prescription and lab report analysis platform
+site_author: Medi-Lens Team
+
+repo_name: Medi-lens
+repo_url: https://github.com/hridoy9011/Medi-lens
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+    - scheme: slate
+      primary: teal
+      accent: cyan
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: getting-started/introduction.md
+      - Features: getting-started/features.md
+      - Tech Stack: getting-started/tech-stack.md
+  - Installation:
+      - Local Setup: installation/local-setup.md
+  - Usage:
+      - Prescription Analysis: usage/prescription.md
+      - Lab Report Analysis: usage/lab-report.md
+  - API Reference:
+      - Overview: api/overview.md
+      - Image Analysis Flow: api/image-analysis.md
+  - Architecture:
+      - System Design: architecture/system-design.md
+  - Deployment:
+      - GitHub Pages: deployment/github-pages.md
+  - License: license.md
